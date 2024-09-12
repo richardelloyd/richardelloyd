@@ -9,87 +9,87 @@
 ⚡ I’m a drummer
 
 ## 🌐 Socials:
-![LinkedIn
+![LinkedIn]
 (https://linkedin.com/in/https://www.linkedin.com/in/richp36/) 
 
 # 💻 Tech Stack:
 
 ### Languages
-C#
-CSS3
-GraphQL
-JavaScript
-Java
-HTML5
-Ruby
-TypeScript
+* C#
+* CSS3
+* GraphQL
+* JavaScript
+* Java
+* HTML5
+* Ruby
+* TypeScript
 
 ### Hosting/SaaS
-AWS
-Azure
-Google Cloud
-Netlify
+* AWS
+* Azure
+* Google Cloud
+* Netlify
 
 ### FRAMEWORKS, PLATFORMS & LIBRARIES
-.Net
-Apollo-GraphQL
-Bootstrap
-Chart.js
-Express.js
-NPM
-Next JS
-NodeJS
-Rails
-React
-Spring
-TailwindCSS
-Vue.js
+* .Net
+* Apollo-GraphQL
+* Bootstrap
+* Chart.js
+* Express.js
+* NPM
+* Next JS
+* NodeJS
+* Rails
+* React
+* Spring
+* TailwindCSS
+* Vue.js
 
 ### SERVERS
-Apache Maven
-Jenkins
+* Apache Maven
+* Jenkins
 
 ### DATABASES / ORM
-Postgres
-MySQL
-MongoDB
-MicrosoftSQLServer
-Redis
-SQLite
+* Postgres
+* MySQL
+* MongoDB
+* MicrosoftSQLServer
+* Redis
+* SQLite
 
 ### DESIGN
-Adobe
-Adobe Illustrator
-Adobe Photoshop
-Gimp
-Figma
-Blender
-Affinity Photo
-Affinity Designer
-Inkscape
+* Adobe
+* Adobe Illustrator
+* Adobe Photoshop
+* Gimp
+* Figma
+* Blender
+* Affinity Photo
+* Affinity Designer
+* Inkscape
 
 ### CI/CD VCS
-GitLab CI
-Git
-Bitbucket
-GitHub
+* GitLab CI
+* Git
+* Bitbucket
+* GitHub
 
 ### Deployment
-Docker
-Kubernetes
-Terraform
+* Docker
+* Kubernetes
+* Terraform
 
 ### Other
-Alfred
-ESLint
-ElasticSearch
-Jira
-Home Assistant
-Grafana
-Postman
-Swagger
-Raspberry Pi
-Twilio
+* Alfred
+* ESLint
+* ElasticSearch
+* Jira
+* Home Assistant
+* Grafana
+* Postman
+* Swagger
+* Raspberry Pi
+* Twilio
 
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=richardelloyd&theme=dracula&hide_border=false&include_all_commits=false&count_private=false)<br/>
