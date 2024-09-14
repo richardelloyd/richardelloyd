@@ -1,13 +1,27 @@
-<main class="flex flex-col h-screen justify-between main font-sans">
-  <div class="mb-auto h-10 flex">
-    <div class="w-1/4 text-white bg-sky-950 h-screen p-5">
-      <a routerLink="/"><img src="/avatar_300.png" alt="Avatar" class="w-52 m-auto" /></a>
-      <ul class="m-auto">
-        <li><a routerLink="/projects" class="hover:underline cursor-pointer">Projects</a></li>
-        <li><a routerLink="/designs" class="hover:underline cursor-pointer">Designs</a></li>
-      </ul>
+<main class="flex h-screen main font-sans">
+  <div class="w-1/4 text-white bg-sky-950 h-screen p-5 overflow-y-auto flex flex-col">
+    <div class="flex-grow overflow-y-auto mb-auto">
+      <a routerLink="/"><img src="/avatar_300.png" alt="Avatar" class="w-52 m-auto hover:invert" /></a>
+      <p class="p-4 text-sm text-center">Just a little site to try different things</p>
+      <div class="m-auto flex flex-col text-right w-50 p-5">
+        <a routerLink="/projects" class="hover:blur-sm cursor-pointer" data-tooltip-target="tooltip-projects" data-tooltip-placement="left">Projects</a>
+        <a routerLink="/designs" class="hover:blur-sm cursor-pointer" data-tooltip-target="tooltip-designs" data-tooltip-placement="left">Designs</a>
+      </div>
+      <div id="tooltip-projects" role="tooltip"
+        class="rounded-sm absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-sky-950 bg-white shadow opacity-0 tooltip dark:bg-gray-700">
+        Projects
+        <div class="tooltip-arrow" data-popper-arrow></div>
+      </div>
+      <div id="tooltip-designs" role="tooltip"
+        class="rounded-sm absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-sky-950 bg-white shadow opacity-0 tooltip dark:bg-gray-700">
+        Designs
+        <div class="tooltip-arrow" data-popper-arrow></div>
+      </div>
     </div>
-    <div class="w-3/4 h-12 p-2">
+    <footer class="mt-auto py-2"></footer>
+  </div>
+  <div class="w-3/4 flex flex-col">
+    <div class="flex-grow overflow-y-auto p-5">
       <router-outlet></router-outlet>
     </div>
   </div>
