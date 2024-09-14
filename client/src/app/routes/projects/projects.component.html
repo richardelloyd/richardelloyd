@@ -1,1 +1,23 @@
-<h1>This is Projects</h1>
+<div class="max-w-4xl mx-auto text-center">
+  <h1 class="text-4xl font-bold mb-4 text-sky-950">Web & Software Projects</h1>
+  <p class="text-lg text-gray-700 mb-8">
+    Welcome to my project showcase! Here, you'll find a collection of web and software projects that I've worked on. Each project demonstrates my skills in various technologies, problem-solving abilities, and passion for creating innovative solutions.
+  </p>
+  <div class="bg-sky-100 p-6 rounded-lg shadow-md">
+    <p class="text-sky-800 italic">
+      "The best way to predict the future is to create it." - Alan Kay
+    </p>
+  </div>
+  <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div *ngFor="let project of projects" class="bg-white rounded-lg shadow-md overflow-hidden">
+      <div class="p-4">
+        <h3 class="text-xl font-semibold text-sky-950 mb-2">{{ project.title }}</h3>
+        <p class="text-sm text-gray-600 mb-4">{{ project.description }}</p>
+        <div class="flex justify-between items-center">
+          <span class="text-sm text-gray-500">{{ project.technology }}</span>
+          <button class="bg-sky-500 text-white px-4 py-2 rounded hover:bg-sky-600 transition">View Project</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

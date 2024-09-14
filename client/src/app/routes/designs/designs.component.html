@@ -1,1 +1,22 @@
-<h1>This is Designs</h1>
+<div class="max-w-4xl mx-auto text-center">
+  <h1 class="text-4xl font-bold mb-4 text-sky-950">Graphic Design Showcase</h1>
+  <p class="text-lg text-gray-700 mb-8">
+    Welcome to my design portfolio! Here, you'll find a curated collection of my graphic design projects, showcasing a range of styles and techniques. From branding and logo design to digital illustrations and print materials, each piece represents my passion for visual storytelling and creative problem-solving.
+  </p>
+  <div class="bg-sky-100 p-6 rounded-lg shadow-md">
+    <p class="text-sky-800 italic">
+      "Design is not just what it looks like and feels like. Design is how it works." - Steve Jobs
+    </p>
+  </div>
+  <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div *ngFor="let design of designs" class="bg-white rounded-lg shadow-md overflow-hidden">
+      <div class="p-4">
+        <h3 class="text-xl font-semibold text-sky-950 mb-2">{{ design.title }}</h3>
+        <div class="flex justify-between items-center">
+          <span class="text-sm text-gray-500">{{ design.title }}</span>
+          <button class="bg-sky-500 text-white px-4 py-2 rounded hover:bg-sky-600 transition">View Details</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
