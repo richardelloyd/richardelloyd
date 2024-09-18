@@ -1,6 +1,6 @@
 # Hello! I'm Rich 👋
 
-I’m a developer with a passion for all things tech. Whether it’s learning something new or building innovative projects, I love to dive deep into code and design.
+I'm a dedicated developer with a deep passion for technology and innovation. Whether it's mastering new skills or crafting cutting-edge projects, I thrive on exploring complex challenges in both code and design. I enjoy turning ideas into reality with creative solutions and continuous learning
 
 - 👯 I’m looking to collaborate on anything exciting!
 - 🌱 I’m currently learning everything tech-related.
